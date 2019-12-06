@@ -1,0 +1,25 @@
+{
+  "name": "authorized-google",
+  "version": "1.0.0",
+  "description": "Course files for The Net Ninja OAuth playlist on YouTube",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benzkjy/oauth-playlist.git"
+  },
+  "author": "Khajornyot.bz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benzkjy/oauth-playlist/issues"
+  },
+  "homepage": "https://github.com/benzkjy/oauth-playlist#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
